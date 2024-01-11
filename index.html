@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>You have been Rickrolled</title>
-  </head>
-  <body>
-    <video width="1920" height="1080" controls autoplay>
-      <source src="assets/video.mp4" type=video/mp4>
-    </video>
-    <p>Why Did you click that link????????????</p>
-  </body>
+<head>
+    <title>Autoplay Video</title>
+    <style>
+        /* Style for the video container */
+        #video-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-container">
+        <video controls autoplay>
+            <source src="assets/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
 </html>
